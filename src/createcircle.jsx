@@ -8,7 +8,7 @@ const CreateCircle = () => {
     const randomColor = getRandomColor();
     setColor(randomColor);
 
-    const randomradius = getRandomradius();
+    const randomradius = getRandomradius(20, 50);
     setRadius(randomradius);
   }, []);
 
